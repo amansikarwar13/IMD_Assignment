@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Group IMD" duration-ms="102043" started-at="2019-03-25T17:56:46Z" finished-at="2019-03-25T17:58:29Z">
+    <groups>
+    </groups>
+    <test name="Acceptance Test Cases" duration-ms="102043" started-at="2019-03-25T17:56:46Z" finished-at="2019-03-25T17:58:29Z">
+      <class name="com.practice.test.FileUploadTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.practice.test.FileUploadTest@ae45eb6]" name="setup" is-config="true" duration-ms="10486" started-at="2019-03-25T17:57:49Z" finished-at="2019-03-25T17:58:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="fileUpload()[pri:0, instance:com.practice.test.FileUploadTest@ae45eb6]" name="fileUpload" duration-ms="9533" started-at="2019-03-25T17:58:00Z" description="screen should show File Uploaded! as title and filename burrito.jpg after uploading file" finished-at="2019-03-25T17:58:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fileUpload -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.practice.test.FileUploadTest@ae45eb6]" name="teardown" is-config="true" duration-ms="813" started-at="2019-03-25T17:58:09Z" finished-at="2019-03-25T17:58:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.practice.test.FileUploadTest -->
+      <class name="com.practice.test.LoginTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.practice.test.LoginTest@3532ec19]" name="setup" is-config="true" duration-ms="14351" started-at="2019-03-25T17:56:47Z" finished-at="2019-03-25T17:57:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testInvalidLogin()[pri:0, instance:com.practice.test.LoginTest@3532ec19]" name="testInvalidLogin" duration-ms="3384" started-at="2019-03-25T17:57:01Z" description="error message stated &#039;Your username is invalid!&#039; after clicking on Login Button" finished-at="2019-03-25T17:57:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLogin -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.practice.test.LoginTest@3532ec19]" name="teardown" is-config="true" duration-ms="848" started-at="2019-03-25T17:57:04Z" finished-at="2019-03-25T17:57:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.practice.test.LoginTest@3532ec19]" name="setup" is-config="true" duration-ms="13723" started-at="2019-03-25T17:57:05Z" finished-at="2019-03-25T17:57:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validLogin()[pri:0, instance:com.practice.test.LoginTest@3532ec19]" name="validLogin" duration-ms="5066" started-at="2019-03-25T17:57:19Z" description="successful message stated &#039;You logged into a secure area!&#039; on entering valid credentails" finished-at="2019-03-25T17:57:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.practice.test.LoginTest@3532ec19]" name="teardown" is-config="true" duration-ms="1234" started-at="2019-03-25T17:57:24Z" finished-at="2019-03-25T17:57:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.practice.test.LoginTest -->
+      <class name="com.practice.test.JavaScriptAlertsTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.practice.test.JavaScriptAlertsTest@68c4039c]" name="setup" is-config="true" duration-ms="9255" started-at="2019-03-25T17:57:25Z" finished-at="2019-03-25T17:57:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="alertConfirm()[pri:0, instance:com.practice.test.JavaScriptAlertsTest@68c4039c]" name="alertConfirm" duration-ms="1797" started-at="2019-03-25T17:57:34Z" description="result showing &#039;You clicked: Ok&#039; on clicking &#039;Click for JS Cofirm&#039;" finished-at="2019-03-25T17:57:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alertConfirm -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.practice.test.JavaScriptAlertsTest@68c4039c]" name="teardown" is-config="true" duration-ms="793" started-at="2019-03-25T17:57:36Z" finished-at="2019-03-25T17:57:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.practice.test.JavaScriptAlertsTest@68c4039c]" name="setup" is-config="true" duration-ms="10541" started-at="2019-03-25T17:57:37Z" finished-at="2019-03-25T17:57:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="alertTextVerification()[pri:0, instance:com.practice.test.JavaScriptAlertsTest@68c4039c]" name="alertTextVerification" duration-ms="1100" started-at="2019-03-25T17:57:48Z" description="result showing &#039;You entered: null&#039; on entering text and dismissing alert" finished-at="2019-03-25T17:57:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alertTextVerification -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.practice.test.JavaScriptAlertsTest@68c4039c]" name="teardown" is-config="true" duration-ms="788" started-at="2019-03-25T17:57:49Z" finished-at="2019-03-25T17:57:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.practice.test.JavaScriptAlertsTest -->
+      <class name="com.practice.test.IFrameTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.practice.test.IFrameTest@59f99ea]" name="setup" is-config="true" duration-ms="12019" started-at="2019-03-25T17:58:10Z" finished-at="2019-03-25T17:58:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="fileUpload()[pri:0, instance:com.practice.test.IFrameTest@59f99ea]" name="fileUpload" duration-ms="5057" started-at="2019-03-25T17:58:22Z" description="iFrame textbox shows I love pizza" finished-at="2019-03-25T17:58:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fileUpload -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.practice.test.IFrameTest@59f99ea]" name="teardown" is-config="true" duration-ms="1208" started-at="2019-03-25T17:58:27Z" finished-at="2019-03-25T17:58:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.practice.test.IFrameTest -->
+    </test> <!-- Acceptance Test Cases -->
+  </suite> <!-- Group IMD -->
+</testng-results>

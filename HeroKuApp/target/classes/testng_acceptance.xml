@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Group IMD">
+	<test name="Acceptance Test Cases">
+		<classes>
+			<class name="com.practice.test.LoginTest"></class>
+			<class name="com.practice.test.JavaScriptAlertsTest"></class>
+			<class name="com.practice.test.FileUploadTest"></class>
+			<class name="com.practice.test.IFrameTest"></class>
+		</classes>
+	</test>
+</suite>

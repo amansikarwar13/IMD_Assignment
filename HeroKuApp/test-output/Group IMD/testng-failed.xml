@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Group IMD]">
+  <test thread-count="5" name="Acceptance Test Cases(failed)">
+    <classes>
+      <class name="com.practice.test.FileUploadTest">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="fileUpload"/>
+        </methods>
+      </class> <!-- com.practice.test.FileUploadTest -->
+      <class name="com.practice.test.JavaScriptAlertsTest">
+        <methods>
+          <include name="alertTextVerification"/>
+          <include name="teardown"/>
+          <include name="alertConfirm"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.practice.test.JavaScriptAlertsTest -->
+    </classes>
+  </test> <!-- Acceptance Test Cases(failed) -->
+</suite> <!-- Failed suite [Group IMD] -->
